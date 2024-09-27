@@ -1,0 +1,33 @@
+#####################while checking the mysql or mariadb server
+
+systemctl status mariadb
+
+one more command to check get the userdata that we used at the lauching of the instance
+
+curl http://169.254.169.254/latest/user-data  
+
+mysql -u admin -padmin123 accounts
+show tables;
+quit 
+exit
+exit
+
+################memcache server commands
+
+ss -tunlp | grep 11211
+check the output an dexit
+
+##########################rabbitmq server commands
+
+systemctl status rabbitmq-server
+check the status and exit 
+
+#########################ubuntu app server 
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install tomcat10 tomcat10-admin tomcat10-docs tomcat10-common -y
+
+ls /var/lib/tomcat10
+ls /var/lib/tomcat10/webapps/
+
+vprofile.in
