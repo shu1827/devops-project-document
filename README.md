@@ -24,5 +24,14 @@ Everything is ready made over here. We just need to bring up the VM and run our 
 In this project, we will see how these things will run on the container together. We are going to run this entire setup on a virtual machine.
 So in the virtual machine, you will have all these containers running and we will access it.
 
+## PROJECT-3 (MICROSERVICES PROJECT)
+In this Project we will deploy a microservice application.
+The name is EMart. This application was designed by using microservice architecture.
+In the front end you have an API Gateway created with nginx and this listens at three endpoints, root, slash api, slash web api.
+When the user access the URL of the website, it'll be redirected to root, which is an app written in Angular. This will give the front end also called client app. And this will in turn connect to slash api, which will be served by an application Mart api NodeJS. And it also needs MongoDB Database. And the MongoDB Database we are going to deploy as a container, but it could be an independent service running from a server or from any other endpoint.This application also has slash web api, which connects to an application, Books api, which is written in Java and this also needs a database, a MySQL Database.
+
+So all these apps that you see over here, nginx,Angular, NodeJS, Java, Mongo, MySQL, all these will be containers.
+So in the virtual machine, you will have all these containers running and we will access it.
+
 
 
