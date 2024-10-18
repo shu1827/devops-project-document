@@ -33,5 +33,18 @@ When the user access the URL of the website, it'll be redirected to root, which 
 So all these apps that you see over here, nginx,Angular, NodeJS, Java, Mongo, MySQL, all these will be containers.
 So in the virtual machine, you will have all these containers running and we will access it.
 
+## PROJECT-4 (AWS CLOUD PROJECT SET UP | LIFT & SHIFT)
+This is an AWS cloud computing project.
+The name of this project is lift and shift application workload, and we're going to lift our application, the vprofile and shift it on AWS cloud.
+In this project, we are going to host and run it on AWS cloud for production. And we're going to use a lift and shift strategy for this.
+After going through this project, you will learn how to run application workload on AWS cloud by using lift and shift strategy.
+
+We're using AWS, cloud computing, and the services that we are going to use In this project are, 
+- Starting with ec2 instances. Ec2 instances will be our VMs for Tomcat, rabbitmq, Memcache and mysql servers.
+- We will be also using elastic load balancer, which will be replacement of our engine service.
+- Will be using auto scaling service, which will automatically scale out and scale in our ec2 instances, which will automatically control our resources and also our cost.
+- For storage, we will be using S3 or EFS
+- so and also Route 53 for a private DNS service.
+- Along with these we will be using few more services like IAM, ACM, EBS etc
 
 
