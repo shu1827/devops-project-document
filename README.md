@@ -79,7 +79,6 @@ The architecture is designed to deploy applications with a clear separation of c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
 
 
