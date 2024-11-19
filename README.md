@@ -5,9 +5,22 @@ Each folder serves a specific purpose, whether it's related to infrastructure as
 
 This `README.md` provides an index of all key components of the repository to help you navigate and understand the contents.
 
-## Table of Contents
+## Directory Structure
 
-## PROJECT-01 (V-Profile Project MANUAL and AUTOMATED)
+The repository is organized as follows:
+
+```plaintext
+├── PROJECT-01/
+├── PROJECT-02/
+├── PROJECT-03/
+├── PROJECT-04/
+├── PROJECT-05/
+└── LICENSE
+└── README.md
+```
+
+## PROJECT-01 
+##(V-Profile Project MANUAL and AUTOMATED)
 In this project, we are going to set up a web application stack. The name of the project is V Profile Project set up local.
 In this project, we will be setting a multi-tier web application stack. The set up will be locally on your laptop or on your desktop.
 There are two reasons why we are doing this project.
@@ -23,7 +36,8 @@ If you have any project you're working in, any project, you can set up that enti
 
 
 
-## PROJECT-02 (AWS CLOUD PROJECT SET UP | LIFT & SHIFT)
+## PROJECT-02 
+##(AWS CLOUD PROJECT SET UP | LIFT & SHIFT)
 This is an AWS cloud computing project.
 The name of this project is lift and shift application workload, and we're going to lift our application, the vprofile and shift it on AWS cloud.
 In this project, we are going to host and run it on AWS cloud for production. And we're going to use a lift and shift strategy for this.
@@ -37,13 +51,15 @@ We're using AWS, cloud computing, and the services that we are going to use In t
 - Along with these we will be using few more services like IAM, ACM, EBS etc
 
 
-## PROJECT-03 (V-Profile Project on CONTAINERS)
+## PROJECT-03 
+##(V-Profile Project on CONTAINERS)
 In this Project, we will see how to run our Vprofile application on containers. Now this project is more of a trailer of what is coming next in Docker.
 Everything is ready made over here. We just need to bring up the VM and run our Vprofile containers on it.
 In this project, we will see how these things will run on the container together. We are going to run this entire setup on a virtual machine.
 So in the virtual machine, you will have all these containers running and we will access it.
 
-## PROJECT-04 (MICROSERVICES PROJECT on CONTAINERS)
+## PROJECT-04 
+##(MICROSERVICES PROJECT on CONTAINERS)
 In this Project we will deploy a microservice application.
 The name is EMart. This application was designed by using microservice architecture.
 In the front end you have an API Gateway created with nginx and this listens at three endpoints, root, slash api, slash web api.
@@ -51,4 +67,15 @@ When the user access the URL of the website, it'll be redirected to root, which 
 
 So all these apps that you see over here, nginx,Angular, NodeJS, Java, Mongo, MySQL, all these will be containers.
 So in the virtual machine, you will have all these containers running and we will access it.
+
+## PROJECT-05 
+##(3-Tier Infrastructure with Terraform)
+This Project defines a scalable and modular 3-tier infrastructure using Terraform. 
+The architecture is designed to deploy applications with a clear separation of concerns across three layers:
+Presentation Layer (Frontend)
+Application Layer (Backend)
+Data Layer (Database)
+The folder contains the Terraform code that can be used for designing a infrastructure for a web application.
+
+
 
