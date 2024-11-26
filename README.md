@@ -80,10 +80,12 @@ So from our previous project, we have seen, we deployed the vprofile application
 From our previous project, we already know how to host our Web application stack on AWS Cloud.And we used lift and shift strategy.
 In this project, we will re architecture or refactor our services, this strategy is called re architecture or refactoring.
 We're using AWS cloud computing and the services that we are going to use In this project are: 
+
 Front-end
 - Beanstalk for app server, LB, Scaling
 - S3/EFS for storing the artifacts
 - Cloudwatch for monitoring
+
 Back-end
 - RDS Instnace for DataBase [PAAS]
 - Elastic Cache 
