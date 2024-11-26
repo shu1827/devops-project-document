@@ -6,13 +6,16 @@ Each folder serves a specific purpose, whether it's related to infrastructure as
 
 This `README.md` provides an index of all key components of the repository to help you navigate and understand the contents.
 
-```plaintext
-Welcome to the project section.We have a product called V-Profile. It is a website written in Java. Consists of multiple services.
-We will be deploying this product on virtual machines and cloud platforms using differnt services.
-The same code or the product has been used for all the projects but with the different approaches based on the differnt use cases.
-NOTE: The code is not written by me i have taken code from my instructor who has designed this code for the differnet scenarios.
-Each folder contains the steps and the code related to it.
-```
+> IMPORTANT NOTE
+
+
+> We have a product called V-Profile. It is a website written in Java. Consists of multiple services.
+> We will be deploying this product on virtual machines and cloud platforms using differnt services.
+> The same code or the product has been used for all the projects but with the different approaches based on the differnt use cases.
+
+> NOTE: The code is not written by me i have taken code from my instructor who has designed this code for the differnet scenarios.
+> Each folder contains the steps and the code related to it.
+
 
 ## Directory Structure
 
