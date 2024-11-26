@@ -27,6 +27,7 @@ The repository is organized as follows:
 ├── Project-03/
 ├── Project-04/
 ├── Project-05/
+├── Project-06/
 └── LICENSE
 └── README.md
 ```
@@ -60,7 +61,7 @@ In the front end you have an API Gateway created with nginx and this listens at 
 When the user access the URL of the website, it'll be redirected to root, which is an app written in Angular. This will give the front end also called client app. And this will in turn connect to slash api, which will be served by an application Mart api NodeJS. And it also needs MongoDB Database. And the MongoDB Database we are going to deploy as a container, but it could be an independent service running from a server or from any other endpoint.This application also has slash web api, which connects to an application, Books api, which is written in Java and this also needs a database, a MySQL Database.
 
 ## Project-04 
-## (AWS CLOUD PROJECT SET UP | LIFT & SHIFT)
+## (AWS Cloud Project set-up| LIFT & SHIFT)
 This is an AWS cloud computing project.
 The name of this project is lift and shift application workload, and we're going to lift our application, the vprofile and shift it on AWS cloud.
 In this project, we are going to host and run it on AWS cloud for production. And we're going to use a lift and shift strategy for this.
