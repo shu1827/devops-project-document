@@ -6,6 +6,25 @@ Each folder serves a specific purpose, whether it's related to infrastructure as
 
 This `README.md` provides an index of all key components of the repository to help you navigate and understand the contents.
 
+Welcome to the project section.We have a product called VProfile. It is a website written in Java. Consists of multiple services.
+You will be deploying this product on virtual machines, cloud platforms.
+
+The same code or the product has been used for all the projects but with the different approachs based on the knowledge
+NOTE: The code is not written by me i have taken code from a instructor who has designed this code for the differnet scenories
+each folder contains the steps and the code related to it.
+
+Here you will be having five services running in five different virtual machines. In real time.
+
+You will be working in a product and
+
+you should have a local copy of that
+
+product where you can do your experiments.
+
+This project is created keeping this scenario in mind.
+
+Take a look.
+
 ## Directory Structure
 
 The repository is organized as follows:
