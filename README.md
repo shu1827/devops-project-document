@@ -28,6 +28,7 @@ The repository is organized as follows:
 ├── Project-04/
 ├── Project-05/
 ├── Project-06/
+├── Project-07/
 └── LICENSE
 └── README.md
 ```
@@ -65,7 +66,7 @@ When the user access the URL of the website, it'll be redirected to root, which 
 This is an AWS cloud computing project.
 The name of this project is lift and shift application workload, and we're going to lift our application, the vprofile and shift it on AWS cloud.
 In this project, we are going to host and run it on AWS cloud for production. And we're going to use a lift and shift strategy for this.
-After going through this project, you will learn how to run application workload on AWS cloud by using lift and shift strategy.
+After going through this project, we will learn how to run application workload on AWS cloud by using lift and shift strategy.
 We're using AWS cloud computing and the services that we are going to use In this project are: 
 - Starting with ec2 instances. Ec2 instances will be our VMs for Tomcat, rabbitmq, Memcache and mysql servers.
 - We will be also using elastic load balancer, which will be replacement of our engine service.
@@ -103,7 +104,23 @@ The architecture is designed to deploy applications with a clear separation of c
   
 The folder contains the Terraform code that can be used for designing a infrastructure for a web application.
 
+## Project-07
+## (AWS CI/CD Project)
+In this project, we are going to use AWS services to fetch our code, build it and deploy it on AWS Elastic Beanstalk.
+As you may have seen Jenkins CI CD pipeline, Same way we are going to create a code pipeline, but we are going to use AWS services for that.
+We are going to migrate it from GitHub to Bitbucket.Then we are going to use AWS Code Build service, which is going to fetch the source code from Bitbucket
+and deploy it on Beanstalk.
 
+For the code Repository we are using 
+- Bitbucket
+  
+We're using AWS cloud computing and the services that we are going to use In this project are: 
+- Elastic Beanstalk
+- RDS
+- CodePipeline
+- CodeBuild
+- Cloud watch
+  
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
