@@ -13,7 +13,7 @@ This `README.md` provides an index of all key components of the repository to he
 > We will be deploying this product on virtual machines and cloud platforms using differnt services.
 > The same code or the product has been used for all the projects but with the different approaches based on the differnt use cases.
 
-> NOTE: The code is not written by me i have taken code from my instructor who has designed this code for the differnet scenarios.
+> NOTE: The code is not written/developed by me, this code is from my instructor who has designed this code for the differnet scenarios.
 > Each folder contains the steps and the code related to it.
 
 
