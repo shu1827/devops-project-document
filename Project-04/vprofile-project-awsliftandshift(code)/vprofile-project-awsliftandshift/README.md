@@ -1,6 +1,6 @@
 # Prerequisites
 #
-- JDK 11 
+- JDK 17 
 - Maven 3 
 - MySQL 8
 
@@ -15,6 +15,7 @@
 - Memcached
 - Rabbitmq
 - ElasticSearch
+
 # Database
 Here,we used Mysql DB 
 sql dump file:
