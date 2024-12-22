@@ -47,7 +47,7 @@ The repository is organized as follows:
 
 ## Project-07 (AWS CI/CD Project)
 
-## Project-08 (Containerization of JAVA Application)
+## Project-08 (Containerization of V-Profile)
   
   
 ## License
