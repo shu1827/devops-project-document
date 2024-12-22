@@ -29,6 +29,7 @@ The repository is organized as follows:
 ├── Project-05/
 ├── Project-06/
 ├── Project-07/
+├── Project-08/
 └── LICENSE
 └── README.md
 ```
