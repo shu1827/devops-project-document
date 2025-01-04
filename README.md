@@ -30,6 +30,7 @@ The repository is organized as follows:
 ├── Project-06/
 ├── Project-07/
 ├── Project-08/
+├── Project-09/
 └── LICENSE
 └── README.md
 ```
@@ -49,6 +50,8 @@ The repository is organized as follows:
 ## Project-07 (AWS CI/CD Project)
 
 ## Project-08 (Containerization of V-Profile)
+
+## Project-09 (Cloud State Management Using Terraform)
   
   
 ## License
