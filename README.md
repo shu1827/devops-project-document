@@ -31,6 +31,7 @@ The repository is organized as follows:
 ├── Project-07/
 ├── Project-08/
 ├── Project-09/
+├── Project-10/
 └── LICENSE
 └── README.md
 ```
@@ -52,6 +53,8 @@ The repository is organized as follows:
 ## Project-08 (Containerization of V-Profile)
 
 ## Project-09 (Cloud State Management Using Terraform)
+
+## Project-10 (App-Deployment-on-Kubernetes-Cluster)
   
   
 ## License
